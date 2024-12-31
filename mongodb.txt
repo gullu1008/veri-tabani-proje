@@ -1,0 +1,3 @@
+gulcanokman
+Y6q0vq2pgMSkHAUx
+mongodb+srv://gulcanokman:Y6q0vq2pgMSkHAUx@cluster0.5h6rw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

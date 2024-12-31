@@ -1,0 +1,101 @@
+CRITICAL - 2024-12-29 00:00:06 --> Class 'App\Controllers\Controller' not found
+in APPPATH\Controllers\Login.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\code\\app\\Controllers\\Login.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\Login')
+ 6 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Login', true)
+ 7 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-29 20:04:03 --> No suitable servers found (`serverSelectionTryOnce` set): [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-00.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-01.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-
+in VENDORPATH\mongodb\mongodb\src\functions.php on line 487.
+ 1 VENDORPATH\mongodb\mongodb\src\functions.php(487): MongoDB\Driver\Manager->selectServer(Object(MongoDB\Driver\ReadPreference))
+ 2 VENDORPATH\mongodb\mongodb\src\Collection.php(654): MongoDB\select_server(Object(MongoDB\Driver\Manager), [...])
+ 3 APPPATH\Controllers\Home.php(25): MongoDB\Collection->find([])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-29 20:04:48 --> No suitable servers found (`serverSelectionTryOnce` set): [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-01.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-02.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-
+in VENDORPATH\mongodb\mongodb\src\functions.php on line 487.
+ 1 VENDORPATH\mongodb\mongodb\src\functions.php(487): MongoDB\Driver\Manager->selectServer(Object(MongoDB\Driver\ReadPreference))
+ 2 VENDORPATH\mongodb\mongodb\src\Collection.php(654): MongoDB\select_server(Object(MongoDB\Driver\Manager), [...])
+ 3 APPPATH\Controllers\Home.php(25): MongoDB\Collection->find([])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-29 20:04:53 --> No suitable servers found (`serverSelectionTryOnce` set): [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-00.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-01.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-
+in VENDORPATH\mongodb\mongodb\src\functions.php on line 487.
+ 1 VENDORPATH\mongodb\mongodb\src\functions.php(487): MongoDB\Driver\Manager->selectServer(Object(MongoDB\Driver\ReadPreference))
+ 2 VENDORPATH\mongodb\mongodb\src\Collection.php(654): MongoDB\select_server(Object(MongoDB\Driver\Manager), [...])
+ 3 APPPATH\Controllers\Home.php(25): MongoDB\Collection->find([])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-29 20:05:00 --> No suitable servers found (`serverSelectionTryOnce` set): [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-01.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-02.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-
+in VENDORPATH\mongodb\mongodb\src\functions.php on line 487.
+ 1 VENDORPATH\mongodb\mongodb\src\functions.php(487): MongoDB\Driver\Manager->selectServer(Object(MongoDB\Driver\ReadPreference))
+ 2 VENDORPATH\mongodb\mongodb\src\Collection.php(654): MongoDB\select_server(Object(MongoDB\Driver\Manager), [...])
+ 3 APPPATH\Controllers\Home.php(25): MongoDB\Collection->find([])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-29 20:06:36 --> No suitable servers found (`serverSelectionTryOnce` set): [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-00.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-01.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-
+in VENDORPATH\mongodb\mongodb\src\functions.php on line 487.
+ 1 VENDORPATH\mongodb\mongodb\src\functions.php(487): MongoDB\Driver\Manager->selectServer(Object(MongoDB\Driver\ReadPreference))
+ 2 VENDORPATH\mongodb\mongodb\src\Collection.php(654): MongoDB\select_server(Object(MongoDB\Driver\Manager), [...])
+ 3 APPPATH\Controllers\Home.php(25): MongoDB\Collection->find([])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-29 20:07:11 --> No suitable servers found (`serverSelectionTryOnce` set): [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-01.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-02.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-
+in VENDORPATH\mongodb\mongodb\src\functions.php on line 487.
+ 1 VENDORPATH\mongodb\mongodb\src\functions.php(487): MongoDB\Driver\Manager->selectServer(Object(MongoDB\Driver\ReadPreference))
+ 2 VENDORPATH\mongodb\mongodb\src\Collection.php(654): MongoDB\select_server(Object(MongoDB\Driver\Manager), [...])
+ 3 APPPATH\Controllers\Hakkimizda.php(18): MongoDB\Collection->find([])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Hakkimizda->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hakkimizda))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-29 20:08:06 --> No suitable servers found (`serverSelectionTryOnce` set): [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-00.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-01.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-
+in VENDORPATH\mongodb\mongodb\src\functions.php on line 487.
+ 1 VENDORPATH\mongodb\mongodb\src\functions.php(487): MongoDB\Driver\Manager->selectServer(Object(MongoDB\Driver\ReadPreference))
+ 2 VENDORPATH\mongodb\mongodb\src\Collection.php(654): MongoDB\select_server(Object(MongoDB\Driver\Manager), [...])
+ 3 APPPATH\Controllers\Kahveler.php(18): MongoDB\Collection->find([])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kahveler->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kahveler))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-29 20:08:28 --> No suitable servers found (`serverSelectionTryOnce` set): [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-01.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-02.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-
+in VENDORPATH\mongodb\mongodb\src\functions.php on line 487.
+ 1 VENDORPATH\mongodb\mongodb\src\functions.php(487): MongoDB\Driver\Manager->selectServer(Object(MongoDB\Driver\ReadPreference))
+ 2 VENDORPATH\mongodb\mongodb\src\Collection.php(654): MongoDB\select_server(Object(MongoDB\Driver\Manager), [...])
+ 3 APPPATH\Controllers\Home.php(40): MongoDB\Collection->find([])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->test('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-29 20:09:30 --> No suitable servers found (`serverSelectionTryOnce` set): [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-00.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-01.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-
+in VENDORPATH\mongodb\mongodb\src\functions.php on line 487.
+ 1 VENDORPATH\mongodb\mongodb\src\functions.php(487): MongoDB\Driver\Manager->selectServer(Object(MongoDB\Driver\ReadPreference))
+ 2 VENDORPATH\mongodb\mongodb\src\Collection.php(654): MongoDB\select_server(Object(MongoDB\Driver\Manager), [...])
+ 3 APPPATH\Controllers\Home.php(25): MongoDB\Collection->find([])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-29 20:11:00 --> No suitable servers found (`serverSelectionTryOnce` set): [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-01.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-00-02.5h6rw.mongodb.net:27017'] [TLS handshake failed: error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error calling hello on 'cluster0-shard-
+in VENDORPATH\mongodb\mongodb\src\functions.php on line 487.
+ 1 VENDORPATH\mongodb\mongodb\src\functions.php(487): MongoDB\Driver\Manager->selectServer(Object(MongoDB\Driver\ReadPreference))
+ 2 VENDORPATH\mongodb\mongodb\src\Collection.php(654): MongoDB\select_server(Object(MongoDB\Driver\Manager), [...])
+ 3 APPPATH\Controllers\Home.php(25): MongoDB\Collection->find([])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
